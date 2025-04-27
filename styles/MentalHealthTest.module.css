@@ -1,0 +1,155 @@
+.testContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #ff6b6b, #ff8e8e);
+  transition: width 0.3s ease;
+}
+
+.question {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.options {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.optionButton {
+  padding: 1rem 2rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  font-size: 1.1rem;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.optionButton:hover {
+  border-color: #ff6b6b;
+  background: #fff5f5;
+}
+
+.optionButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f0f0f0;
+  border-top-color: #ff6b6b;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.resultsContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.analysis {
+  margin-bottom: 2rem;
+}
+
+.insights,
+.recommendations {
+  margin-bottom: 2rem;
+}
+
+.insights h3,
+.recommendations h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.insights ul,
+.recommendations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.insights li,
+.recommendations li {
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.resources {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.resources h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resources li {
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.restartButton {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.restartButton:hover {
+  background: #ff5252;
+} 

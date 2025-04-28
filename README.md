@@ -2,6 +2,12 @@
 
 BloomBot is an AI-powered mental health support chatbot that provides a safe space for users to discuss their mental health concerns, take mental health assessments, and receive personalized recommendations and resources.
 
+## Our team
+Kashish Pandya, 23001093 (Bsc. Life Sciences)
+Tanya Udwadia, 23000440 (BBA)
+Tanaisha Udwadia, 23000445 (BBA)
+Hetvi Sidhpura, 23000111(BBA)
+
 ## Features
 
 - 🤖 AI-powered conversational interface
@@ -37,7 +43,7 @@ BloomBot is an AI-powered mental health support chatbot that provides a safe spa
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ishanpathak1/BloomBot.git
+git clone https://github.com/kashish-112/BloomBot.git
 cd BloomBot
 ```
 
@@ -114,7 +120,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For support, email [ishan.pathak2711@gmail.com] or open an issue in the repository.
+For support, email [kashishavani@gmail.com] or open an issue in the repository.
 
 ##Disclaimer
 

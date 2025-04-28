@@ -3,10 +3,10 @@
 BloomBot is an AI-powered mental health support chatbot that provides a safe space for users to discuss their mental health concerns, take mental health assessments, and receive personalized recommendations and resources.
 
 ## Our team
-Kashish Pandya, 23001093 (Bsc. Life Sciences)
-Tanya Udwadia, 23000440 (BBA)
-Tanaisha Udwadia, 23000445 (BBA)
-Hetvi Sidhpura, 23000111(BBA)
+Kashish Pandya, 23001093 (Bsc. Life Sciences);
+Tanya Udwadia, 23000440 (BBA);
+Tanaisha Udwadia, 23000445 (BBA);
+Hetvi Sidhpura, 23000111(BBA);
 
 ## Features
 
